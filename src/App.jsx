@@ -189,12 +189,12 @@ function Answers({answers, getAnswerInfo, allAnswered}) {
     
     
     const answerEls =  answersState.map((answer, idx) => {
-                        return (
+                     return (
                             <li 
-                            onClick={()=> {
+                            onClick={!allAnswered ? ()=> {
                                 chooseAnswer(idx)
                                 getAnswerInfo(idx, answersState)
-                            } } 
+                            }: ()=>{return null}} 
                             className={
                                 `answer 
                                 ${answer.isAnswered && 'chosen'} 
