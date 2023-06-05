@@ -54,6 +54,7 @@ h1 {
 
 /* MAIN */
 .main-wrapper {
+  min-height: 95vh;
   display: grid;
   padding: 1em;
   background-image: url("./images/questions-page.png");
