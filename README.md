@@ -1,2 +1,3 @@
 # Random-Quiz
-Random Questions
+
+Deploy: https://gleeful-cactus-469017.netlify.app/
